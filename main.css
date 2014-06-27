@@ -1,0 +1,35 @@
+body	 {
+	margin-left: 200px; 
+	margin-right: 200px;
+}
+
+h1 {
+	background-colo /r: rainbow;
+	background-image: url(http://th04.deviantart.net/fs70/PRE/i/2013/025/6/1/jake_the_dog_by_epicmanphilip-d5snxe5.jpg);
+
+}
+
+img{
+	margin-left: 250px;	
+}
+
+
+.parent{
+	opacity: 1;
+	display: block;
+	background: none;
+	width: 500px;
+	height: 104px;
+	border: solid 1px orange;
+}
+/*
+	style="opacity: 1; display: block; background: none;"*/
+
+
+
+	.parent:hover{
+            font-size: 15px;
+            font-family: Sans-Serif;
+            background: #ffffdd;
+            border: solid 1px #EDC648;
+        }
