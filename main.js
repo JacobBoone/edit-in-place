@@ -1,6 +1,6 @@
 $(document).on('ready', function() {
   
- ("<textarea </textarea>");
+ ("<textarea> </textarea>");
 
 // want to Click to hide, edit content and replace previous text
 // Hide old, create new, show new
