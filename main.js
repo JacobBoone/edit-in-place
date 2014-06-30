@@ -1,12 +1,20 @@
 $(document).on('ready', function() {
   
-var edittextarea = ("<textarea id='inplace-text'>Hover over this text to enable edit in place demo. Click to edit.</textarea>");
+ ("<textarea </textarea>");
 
 // want to Click to hide, edit content and replace previous text
 // Hide old, create new, show new
+	
+
+	$("textarea").text("Hover 232over this text to enable edit in place demo. Click to edit.")
+
+
+
+
 	$('.editable').click(function()	{
 		$(this).hide()
-		$('.edittextarea').append('.editable')
+		$(this).show("textarea")
+		// $('.edittextarea').append('.editable')
 		
 
 
